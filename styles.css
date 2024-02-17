@@ -62,6 +62,11 @@ main{
     border-radius: 5px;
     cursor: pointer;
   }
+  button:hover {
+    background: white;
+    color: #030302;
+    transition: all 0.9s ease;
+  }
   
   .result{
     display: flex;
@@ -78,3 +83,8 @@ main{
     box-sizing: border-box;
     user-select: none;
   }
+
+  .result:hover {
+    background: white;
+    color: #030302;
+    transition: all 0.9s ease;
